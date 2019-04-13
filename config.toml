@@ -2,6 +2,9 @@ baseURL = "https://code-and-lego.bintz.io/"
 languageCode = "en-us"
 title = "Code and LEGO"
 theme = "m10c"
+[params]
+  author = "Alexandre Bintz"
+  description = "A blog about programming and LEGO"
 [[params.social]]
   name = "github"
   url = "https://github.com/alexbinary"
