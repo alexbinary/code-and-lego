@@ -2,3 +2,15 @@ baseURL = "https://code-and-lego.bintz.io/"
 languageCode = "en-us"
 title = "Code and LEGO"
 theme = "m10c"
+[[params.social]]
+  name = "github"
+  url = "https://github.com/alexbinary"
+[[params.social]]
+  name = "twitter"
+  url = "https://twitter.com/alex_loves_lego"
+[[params.social]]
+  name = "flickr"
+  url = "https://www.flickr.com/photos/163799831@N07/"
+[[params.social]]
+  name = "email"
+  url = "mailto:alexandre@bintz.io"
