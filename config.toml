@@ -1,7 +1,8 @@
 baseURL = "https://code-and-lego.bintz.io/"
 languageCode = "en-us"
 title = "Code and LEGO"
-theme = "m10c"
+# theme = "m10c"
+theme = "hugo-nuo"
 [params]
   author = "Alexandre Bintz"
   description = "Hello Internet! I'm Alex, I'm a big fan of LEGO and occasional iOS programmer. I write about what I learn and what I do. Follow me on GitHub for my programming projects and on Flickr for my LEGO projects."
@@ -17,3 +18,21 @@ theme = "m10c"
 [[params.social]]
   name = "email"
   url = "mailto:alexandre@bintz.io"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Projects"
+  weight = 20
+  identifier = "works"
+  url = "/posts"
+
+[[menu.main]]
+  name = "How-tos"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
